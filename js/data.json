@@ -1,0 +1,37 @@
+{
+"projects":
+	[
+
+		{
+			"title": "IdeasBA Project",
+			"img": "ideas.png",
+			"desc": [
+					"IdeasBA is an openSource platform to improve your city",
+					"IdeasBA is a site that allows citizens to share their ideas, complaints, questions and suggestions to improve our city.",
+					"This project won a Special Mention on BAApps contest sponsored by Buenos Aires Citys Government.",
+					"<a href='http://restopengov.org/2012/11/presentamos-en-sociedad-ideasba/' target='_blank'>+ info</a>(spanish)"
+					],
+			"using": ["SCALA","Play Framework! 2","REST","AngularJS","Twitter Bootstrap"],
+			"status": "beta",
+			"site": "http://ideasba.org/",
+			"code": "https://github.com/RestOpenGov/ideas-ba",
+			"order": 2
+		}
+	,
+		{
+			"title": "Project: Words counter",
+			"img": "palabras.png",
+			"desc": [
+					"Upload a txt file, process word counter and visualize results.",
+					"Built because a need of <a href='http://twitter.com/minipunk' target='_blank'>@minipunk</a>",
+					"Couple of hours development.</p><p>There are still some known issues."
+					],
+			"using": ["HTML","CSS","PHP","jQuery","Google Charts","Twitter Bootstrap","Bootswatch custom theme"],
+			"status": "beta",
+			"site": "http://arena.palamago.com.ar/palabras/",
+			"code": "https://github.com/palamago/palabras",
+			"order": 1
+		}
+
+	]
+}

@@ -1,0 +1,84 @@
+body {
+	background-image: url('../img/arena.jpg');
+	background-color: transparent;
+}
+
+.thumbnail .caption {
+	color: #C8C8C8;
+}
+
+.thumbnails .span4 {
+	margin: 0px !important;
+	padding: 1%;
+	width: 33%;
+}
+
+.thumbnail .btn {
+	width: 93px;
+}
+
+.hero-unit {
+	padding: 10px;
+	color: inherit;
+	background-color: #202328;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.hero-unit p {
+	margin: 0px;
+	margin-bottom: 4px;
+}
+
+#image-caption {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	z-index: 1;
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	color: #333;
+}
+
+#image-caption div{ 
+	padding: 8px;
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+/*EDIT MODE*/
+
+.nav .ccm-block {
+	float: left;
+}
+
+.nav .ccm-area {
+	float: left;
+}
+
+.thumbnails .ccm-block {
+
+}
+
+.thumbnails .ccm-area {
+
+}
+
+.nav li a span {
+	text-align: right;
+}
+
+.nav li a i {
+	margin-right: 10px;
+}
+
+.item{
+	width: 270px;
+	margin: 10px;
+}
