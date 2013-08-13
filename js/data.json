@@ -1,7 +1,6 @@
 {
 "projects":
 	[
-
 		{
 			"title": "IdeasBA Project",
 			"img": "ideas.png",
@@ -12,7 +11,7 @@
 					"<a href='http://restopengov.org/2012/11/presentamos-en-sociedad-ideasba/' target='_blank'>+ info</a>(spanish)"
 					],
 			"using": ["SCALA","Play Framework! 2","REST","AngularJS","Twitter Bootstrap"],
-			"status": "beta",
+			"status": "Beta",
 			"site": "http://ideasba.org/",
 			"code": "https://github.com/RestOpenGov/ideas-ba",
 			"order": 2
@@ -27,11 +26,364 @@
 					"Couple of hours development.</p><p>There are still some known issues."
 					],
 			"using": ["HTML","CSS","PHP","jQuery","Google Charts","Twitter Bootstrap","Bootswatch custom theme"],
-			"status": "beta",
+			"status": "Beta",
 			"site": "http://arena.palamago.com.ar/palabras/",
 			"code": "https://github.com/palamago/palabras",
 			"order": 1
 		}
-
+	,
+		{
+			"title": "Site: Fibracap",
+			"img": "fibracap.png",
+			"desc": [
+					"Insitutional site with product's catalog.",
+					"Database with relations between products: line and quality.",
+					"Individual descriptions, filter and search functionalities.",
+					"Multilanguage.",
+					"Complete Backend to manage products and languages."
+					],
+			"using": ["HTML","CSS","jQuery","PHP","MySQL","Flash","ActionScript 2"],
+			"status": "Ready",
+			"site": "http://fibracap.com.ar/",
+			"order": 1
+		}
+	,
+		{
+			"title": "Site: Pastoral de Quilmes",
+			"img": "pastoral.png",
+			"desc": [
+					"Catholic site. News. Splitted by zones.",
+					"Based on Wordpress.",
+					"I created the theme and design.",
+					"Custom backgrounds. Custom headers."
+					],
+			"using": ["HTML","CSS","PHP","MySQL","Wordpress","Javascript"],
+			"status": "Ready",
+			"site": "http://pastoraljuvquilmes.com.ar/",
+			"order": 1
+		}
+	,
+		{
+			"title": "Site: Intepro SRL",
+			"img": "intepro.png",
+			"desc": [
+					"Institutional site for Intepro SRL.",
+					"I created the design and built the HTML & CSS."
+					],
+			"using": ["HTML","CSS"],
+			"status": "Ready",
+			"site": "http://www.inteprosrl.com.ar/",
+			"order": 1
+		}
+	,
+		{
+			"title": "Site: Fagisa SRL",
+			"img": "fagisa.png",
+			"desc": [
+					"Institutional site with catalog / image gallery.",
+					"I created the design from zero.",
+					"Process all pictures and wrote/used my own php mini-framework."
+					],
+			"using": ["HTML","CSS","PHP","jQuery"],
+			"status": "Ready",
+			"site": "http://fagisa.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Spot Motion jQuery Plugin",
+			"img": "spotmotion.png",
+			"desc": [
+					"'Spot Motion' is a jQuery's plugin to create animations based on a group of regular images using stop <a href='http://en.wikipedia.org/wiki/Stop_motion' target='_blank'>stop motion technique</a>"
+					],
+			"using": ["jQuery"],
+			"status": "Ready",
+			"site": "http://arena.palamago.com.ar/spotMotion/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: Victoria Política",
+			"img": "vicky.png",
+			"desc": [
+					"Personal Blog based on Wordpress."
+					],
+			"using": ["HTML","CSS","PHP","Wordpress","Responsive Design"],
+			"status": "Ready",
+			"site": "http://victoriapolitica.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: MAZ Real State",
+			"img": "maz.png",
+			"desc": [
+					"Personal Blog based on Wordpress."
+					],
+			"using": ["HTML","CSS","PHP","jQuery","mySQL"],
+			"status": "Ready",
+			"site": "http://mazpropiedades.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: a90 - La Creatividad al poder",
+			"img": "a90.png",
+			"desc": [
+					"Porfolio blog for two artists.",
+					"Based on Wordpress."
+					],
+			"using": ["HTML","CSS","PHP","Wordpress","Responsive Design","jQuery"],
+			"status": "Ready",
+			"site": "http://a90.com.ar/",
+			"order": 1
+		}	
+	,	
+		{
+			"title": "Site: Carolina & Estela",
+			"img": "caro.png",
+			"desc": [
+					"Portfolio for wood paints business.",
+					"Based on Wordpress.",
+					"Custom theme.",
+					"I took the pictures too."
+					],
+			"using": ["HTML","CSS","PHP","Wordpress"],
+			"status": "Ready",
+			"site": "http://carolinayestela.com.ar/",
+			"order": 1
+		}	
+	,	
+		{
+			"title": "Site: Fell SRL",
+			"img": "fell.png",
+			"desc": [
+					"Institutional static site for Fell SRL, a transportation company.",
+					"I made the Design.",
+					"I'm not very proud about flash animation. But client likes it.",
+					"Based on my own PHP mini-framework.",
+					"Contact form."
+					],
+			"using": ["HTML","CSS","PHP","Flash","ActionScript 2"],
+			"status": "Ready",
+			"site": "http://fellsrl.com.ar/index.php",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: Mariposa en el subte",
+			"img": "mariposa.png",
+			"desc": [
+					"Hand made products online catalog.",
+					"Institutional blog based on wordpress.",
+					"Design and develop effort on my own."
+					],
+			"using": ["HTML","CSS","PHP","Flash","ActionScript 2","Phreeze ORM","Wordpress","mySQL","jQuery"],
+			"status": "Ready",
+			"site": "http://mariposaenelsubte.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: Claudio Ortega professional broadcaster",
+			"img": "claudio.png",
+			"desc": [
+					"Personal site for a professional broadcaster.",
+					"Flex application. Complete resume, services and multimedia galleries.",
+					"Responsive Design."
+					],
+			"using": ["Flex","ActionScript 3"],
+			"status": "Ready",
+			"site": "http://www.claudioortega.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: Vecinos de Wilde",
+			"img": "vecinos.png",
+			"desc": [
+					"Social blog to improve my neighborhood."
+					],
+			"using": ["HTML","CSS","PHP","Wordpress","Google Maps"],
+			"status": "Ready",
+			"site": "http://vecinosdewilde.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: Siempre Alegres",
+			"img": "se.png",
+			"desc": [
+					"Personal site for a school teacher.",
+					"Based on Wordpress."
+					],
+			"using": ["HTML","CSS","PHP","Wordpress","mySQL"],
+			"status": "Ready",
+			"site": "http://siemprealegres.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Site: SIP, human resources",
+			"img": "sip.png",
+			"desc": [
+					"Institutional site for HR services company.",
+					"Based on mini framework AJAX that I built.",
+					"Deep linking.",
+					"Registration, sessions, available jobs. Hiring process."
+					],
+			"using": ["Javascript","AJAX","HTML","CSS","Linkedin","API","jQuery","jQuery UI"],
+			"status": "Ready",
+			"site": "http://www.sip-arg.com.ar/",
+			"order": 1
+		}	
+	,	
+		{
+			"title": "Site: Optica Milenio",
+			"img": "milenio.png",
+			"desc": [
+					"Milenio Optics institutional site.",
+					"Catalog. Special offers. PDF vouchers generation."
+					],
+			"using": ["HTML","CSS","PHP","Wordpress","mySQL"],
+			"status": "Ready",
+			"site": "http://opticamilenio.com.ar/",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Project: TweetFrom",
+			"img": "tweetfrom.png",
+			"desc": [
+					"Visualize from where are you using Twitter.",
+					"Using Twitter API and Javascript Infoviz Tooltip.",
+					"Built on pure Javascript."
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://arena.palamago.com.ar/tweetFrom/",
+			"code": "https://github.com/palamago/tweetFrom",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Project: Play Bafici",
+			"img": "bafici.png",
+			"desc": [
+					"Trivia game for mobile devices based on openData built using Play Framework.",
+					"This project won a Culture's Special Mention on 'BA Hackaton' sponsored by Buenos Aires City's Government.","<a href='http://digital.buenosaires.gob.ar/restopengov-y-playbafici-mencion-especial-en-bahackaton/' target='_blank'>+ info</a> (spanish)",
+						"Responsive Design.",
+						"Developed by <a href='http://restopengov.com/' target='_blank'>RestOpenGov</a> Team (including me)"
+					],
+			"using": ["Play 2","Scala","Javascript","RestOpenGov"],
+			"status": "Ready",
+			"site": "http://playbafici.com.ar/",
+			"code": "https://github.com/bahackaton/PlayBafici",
+			"order": 1
+		}
+	,	
+		{
+			"title": "Data Visualization: National Budget",
+			"img": "presuBar.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://www.nardoz.com/visualizaciones-2012/presupuesto/ring.html",
+			"code": "https://github.com/Nardoz/visualizaciones-2012",
+			"order": 4
+		}
+	,	
+		{
+			"title": "Data Visualization: AutoViz",
+			"img": "autoviz.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://www.nardoz.com/visualizaciones-2012/autoviz/",
+			"code": "https://github.com/Nardoz/visualizaciones-2012",
+			"order": 4
+		}
+	,	
+		{
+			"title": "Data Visualization: ComuViz",
+			"img": "autoviz.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://alanreid.com.ar/comuViz/3d/index.html",
+			"code": "https://github.com/palamago/comuViz",
+			"order": 4
+		}
+	,	
+		{
+			"title": "Data Visualization: HotelViz",
+			"img": "hotelviz.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://www.nardoz.com/HotelViz/",
+			"code": "https://github.com/Nardoz/HotelViz",
+			"order": 4
+		}
+	,	
+		{
+			"title": "Data Visualization: Census",
+			"img": "censo.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://arena.palamago.com.ar/poblacion/",
+			"code": "https://github.com/palamago/country-population",
+			"order": 4
+		}
+	,	
+		{
+			"title": "Project: Cargografías",
+			"img": "cargo.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://www.nardoz.com/HotelViz/",
+			"code": "https://github.com/Nardoz/HotelViz",
+			"order": 4
+		}	
+	,	
+		{
+			"title": "Project: Birthday stats",
+			"img": "birthday.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://arena.palamago.com.ar/birthday-stats/",
+			"code": "https://github.com/palamago/birthday-stats",
+			"order": 4
+		}
+	,	
+		{
+			"title": "Project: Phone Life",
+			"img": "birthday.png",
+			"desc": [
+					""
+					],
+			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"status": "Ready",
+			"site": "http://arena.palamago.com.ar/phoneLife",
+			"code": "https://github.com/palamago/phoneLife",
+			"order": 4
+		}
 	]
 }
