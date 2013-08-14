@@ -14,6 +14,31 @@ function init(){
 	  	return new Handlebars.SafeString(html.join(''));
 	});	
 
+	Handlebars.registerHelper('statusBar', function(item, options) {
+		var c = '';
+		switch(item) {
+			case 'Ready':
+				c = 'alert-success';
+			break;
+			case 'In Progress':
+				c = 'alert-warning';
+			break;
+			case 'Beta':
+				c = 'alert-info';
+			break;
+			case 'Deprecated':
+				c = 'alert-error';
+			break;
+		}
+
+		var block = '<div class="alert '+c+'">'+
+					'<strong>Status:</strong> '+
+					item +
+				'</div>';
+
+	  	return new Handlebars.SafeString(block);
+	});	
+
 	template = Handlebars.compile($("#list-template").html());
 	if(!$('a.brand').is(':visible')){
 		$('.navbar ul li a').tooltip();

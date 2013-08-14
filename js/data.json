@@ -14,7 +14,7 @@
 			"status": "Beta",
 			"site": "http://ideasba.org/",
 			"code": "https://github.com/RestOpenGov/ideas-ba",
-			"order": 2
+			"order": 4
 		}
 	,
 		{
@@ -29,7 +29,7 @@
 			"status": "Beta",
 			"site": "http://arena.palamago.com.ar/palabras/",
 			"code": "https://github.com/palamago/palabras",
-			"order": 1
+			"order": 4
 		}
 	,
 		{
@@ -257,18 +257,19 @@
 			"desc": [
 					"Visualize from where are you using Twitter.",
 					"Using Twitter API and Javascript Infoviz Tooltip.",
-					"Built on pure Javascript."
+					"Built on pure Javascript.",
+					"Deprecated: Twitter api v1."
 					],
 			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
-			"status": "Ready",
+			"status": "Deprecated",
 			"site": "http://arena.palamago.com.ar/tweetFrom/",
 			"code": "https://github.com/palamago/tweetFrom",
-			"order": 1
+			"order": 4
 		}
 	,	
 		{
 			"title": "Project: Play Bafici",
-			"img": "bafici.png",
+			"img": "playbafici.png",
 			"desc": [
 					"Trivia game for mobile devices based on openData built using Play Framework.",
 					"This project won a Culture's Special Mention on 'BA Hackaton' sponsored by Buenos Aires City's Government.","<a href='http://digital.buenosaires.gob.ar/restopengov-y-playbafici-mencion-especial-en-bahackaton/' target='_blank'>+ info</a> (spanish)",
@@ -279,16 +280,16 @@
 			"status": "Ready",
 			"site": "http://playbafici.com.ar/",
 			"code": "https://github.com/bahackaton/PlayBafici",
-			"order": 1
+			"order": 5
 		}
 	,	
 		{
 			"title": "Data Visualization: National Budget",
-			"img": "presuBar.png",
+			"img": "presupuesto.png",
 			"desc": [
-					""
+					"Scrape and visualize National Government Budget splitted by categories and sub-categories."
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"using": ["Javascript","the JIT","Twitter Bootstrap","Bootswatch","jQuery"],
 			"status": "Ready",
 			"site": "http://www.nardoz.com/visualizaciones-2012/presupuesto/ring.html",
 			"code": "https://github.com/Nardoz/visualizaciones-2012",
@@ -299,9 +300,9 @@
 			"title": "Data Visualization: AutoViz",
 			"img": "autoviz.png",
 			"desc": [
-					""
+					"Scrape and visualize car sales across the country splitted by states."
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"using": ["Javascript","the JIT","Twitter Bootstrap","Bootswatch","jQuery"],
 			"status": "Ready",
 			"site": "http://www.nardoz.com/visualizaciones-2012/autoviz/",
 			"code": "https://github.com/Nardoz/visualizaciones-2012",
@@ -310,11 +311,11 @@
 	,	
 		{
 			"title": "Data Visualization: ComuViz",
-			"img": "autoviz.png",
+			"img": "comuviz.png",
 			"desc": [
-					""
+					"Scrape and combine public data to visualize population and sections in a 3D map."
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"using": ["Javascript","Google Earth","jQuery"],
 			"status": "Ready",
 			"site": "http://alanreid.com.ar/comuViz/3d/index.html",
 			"code": "https://github.com/palamago/comuViz",
@@ -325,62 +326,72 @@
 			"title": "Data Visualization: HotelViz",
 			"img": "hotelviz.png",
 			"desc": [
-					""
+					"This dataviz won the first prize on a Hackathon organized by Argentina National Government in 2013.",
+					"Represent the tourist activity in Argentina.",
+					"Created with public data by #NARDOZ team in less than 24 hours."
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
+			"using": ["d3.js","Twitter Bootstrap","underscore.js","jQuery","openRefine"],
 			"status": "Ready",
 			"site": "http://www.nardoz.com/HotelViz/",
 			"code": "https://github.com/Nardoz/HotelViz",
-			"order": 4
+			"order": 6
 		}
 	,	
 		{
 			"title": "Data Visualization: Census",
-			"img": "censo.png",
+			"img": "population.png",
 			"desc": [
-					""
+					"A simple and interactive D3 data visualization using Argentina's population data.",
+					"Represent how the most of Argentina's people live just in a couple of cities.",
+					"The visitors can 'play' with the slider and make some 'research' with available data. They can share their own and 'most shocking' conclusion."
 					],
 			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
 			"status": "Ready",
 			"site": "http://arena.palamago.com.ar/poblacion/",
 			"code": "https://github.com/palamago/country-population",
-			"order": 4
+			"order": 5
 		}
 	,	
 		{
 			"title": "Project: Cargografías",
-			"img": "cargo.png",
+			"img": "cargografias.png",
 			"desc": [
-					""
+					"Cargografías Project was born in a hackathon about d3.js organized by Hack Hackers Community in Buenos Aires, last April 20th.",
+					"The initial idea was create a d3 plugin to create time series in multiples levels using public charges information of Argentina political system.",
+					"The project grew and we work in our free time. Is still a work in progress.",
+					"The final goal is represent the public charges of every person from political's system in a simple way, in a timeline.",
+					"Also, create a database with historical and validated data to be refence into Journalism's community."
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
-			"status": "Ready",
-			"site": "http://www.nardoz.com/HotelViz/",
-			"code": "https://github.com/Nardoz/HotelViz",
-			"order": 4
+			"using": ["PHP","mySQL","d3.js","cakePHP","Twitter Bootstrap","Javascript","Bootswatch","jQuery"],
+			"status": "In Progress",
+			"site": "http://cargografias.org",
+			"code": "https://github.com/hhba/cargografias",
+			"order": 5
 		}	
 	,	
 		{
 			"title": "Project: Birthday stats",
-			"img": "birthday.png",
+			"img": "stats.png",
 			"desc": [
-					""
+					"Simple stats and dataviz of your birthday's greetings and actions.",
+					"Just for fun and learn D3.js"
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
-			"status": "Ready",
+			"using": ["Javascript","d3.js","jQuery","Twitter Bootstrap"],
+			"status": "In Progress",
 			"site": "http://arena.palamago.com.ar/birthday-stats/",
 			"code": "https://github.com/palamago/birthday-stats",
-			"order": 4
+			"order": 5
 		}
 	,	
 		{
 			"title": "Project: Phone Life",
-			"img": "birthday.png",
+			"img": "phonelife.png",
 			"desc": [
-					""
+					"Represents and Share a time-line of cell phones that you had in your life.",
+					"Work in progress."
 					],
-			"using": ["Javascript","Twitter API","Bootswatch","jQuery"],
-			"status": "Ready",
+			"using": ["ScraperWiki","AngularJS","Twitter Boostrap","jQuery UI","Bootswatch"],
+			"status": "Beta",
 			"site": "http://arena.palamago.com.ar/phoneLife",
 			"code": "https://github.com/palamago/phoneLife",
 			"order": 4

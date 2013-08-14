@@ -160,11 +160,11 @@
 
 		</div>
 
-		<!--div id="image-caption">
+		<div id="image-caption">
 			<div>
 				Image:<strong> Sand Dune - Seamless Texture</strong> by <a target="_blank" href="http://www.flickr.com/photos/zooboing/5487700484/">Patrick Hoesly</a>
 			</div>
-		</div-->
+		</div>
 
 		<script id="list-template" type="text/x-handlebars-template">
 			{{#each projects}}
@@ -185,15 +185,15 @@
 
 				<div class="hero-unit">
 					<p><small><strong>Built using:</strong></small></p>
-					<p>
+					<p class="text-center">
 					{{#each using}}
 						<a class="label">{{this}}</a>
 					{{/each}}
 					</p>
 				</div>
 
-				<div class="alert alert-info">
-				<strong>Status:</strong>{{status}}</div>
+				{{statusBar status}}
+
 				<p>
 					{{#if site}}
 						<a class="btn" href="{{site}}" target="_blank"><i class="icon-globe icon-2x pull-left"></i> View<br>Live Site </a>
