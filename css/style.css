@@ -84,3 +84,7 @@ body {
 	width: 270px;
 	margin: 10px;
 }
+
+a.label {
+	cursor: default !important;
+}
