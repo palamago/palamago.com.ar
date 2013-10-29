@@ -396,5 +396,19 @@
 			"code": "https://github.com/palamago/phoneLife",
 			"order": 4
 		}
+	,	
+		{
+			"title": "Data Visualization: Candidates maze",
+			"img": "laberinto.png",
+			"desc": [
+					"In Argentina we have so many political parties and usually we forget the past of some candidates. Here is a tool to remember.",
+					"This was my first profesional job in Data Journalism in a news portal called La Nación."
+					],
+			"using": ["d3.js","jQuery","handleBars","grunt","select2"],
+			"status": "Ready",
+			"site": "http://interactivos.lanacion.com.ar/candidatos/",
+			"code": "https://github.com/lanacioncom/el-laberinto-politico-de-los-candidatos",
+			"order": 7
+		}
 	]
 }
