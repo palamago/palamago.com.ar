@@ -410,5 +410,19 @@
 			"code": "https://github.com/lanacioncom/el-laberinto-politico-de-los-candidatos",
 			"order": 7
 		}
+	,	
+		{
+			"title": "Interactive Application: World Cup Fixture",
+			"img": "mundial.png",
+			"desc": [
+					"Complete and play with the results in the next world cup in Brazil.",
+					"Interactive application based on reactive documents library: knockout.js.",
+					"This was my second profesional job in Data Journalism for a sports news portal called Canchallena.com."
+					],
+			"using": ["Knockout.js","jQuery","handleBars","grunt"],
+			"status": "Ready",
+			"site": "http://canchallena.lanacion.com.ar/mundial-brasil-2014-fixture-interactivo",
+			"order": 8
+		}	
 	]
 }

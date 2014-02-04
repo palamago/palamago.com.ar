@@ -100,3 +100,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', end
 a.label {
 	cursor: default !important;
 }
+
+img.ribbon {
+	top: 50px;
+}
+
+@media (max-width: 979px) {
+	img.ribbon {
+		top: 71px;
+	}
+}
+
+@media (max-width: 767px) {
+	img.ribbon {
+		top: 71px;
+	}
+}
