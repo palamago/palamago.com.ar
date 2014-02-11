@@ -423,6 +423,21 @@
 			"status": "Ready",
 			"site": "http://canchallena.lanacion.com.ar/mundial-brasil-2014-fixture-interactivo",
 			"order": 8
-		}	
+		}
+	,	
+		{
+			"title": "World Cup venues as streets in Buenos Aires",
+			"img": "calle-mundiales.png",
+			"desc": [
+					"No-sense project just for fun and learn. :)",
+					"Every World Cup venue as a street, every year as a address.",
+					"Mini experiment using World Cup data with Buenos Aires Usig API. There is a blog post related <a target='_blank' href='http://blog.palamago.com.ar/2014/02/calles-mundiales-de-buenos-aires'>HERE</a>"
+					],
+			"using": ["Knockout.js","jQuery","Metro CSS UI","Buenos Aires USIG API"],
+			"status": "Ready",
+			"site": "http://arena.palamago.com.ar/calles-mundiales/",
+			"code": "https://github.com/palamago/calles-mundiales-buenos-aires",
+			"order": 9
+		}
 	]
 }
