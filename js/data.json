@@ -33,64 +33,6 @@
 		}
 	,
 		{
-			"title": "Site: Fibracap",
-			"img": "fibracap.png",
-			"desc": [
-					"Insitutional site with product's catalog.",
-					"Database with relations between products: line and quality.",
-					"Individual descriptions, filter and search functionalities.",
-					"Multilanguage.",
-					"Complete Backend to manage products and languages."
-					],
-			"using": ["HTML","CSS","jQuery","PHP","MySQL","Flash","ActionScript 2"],
-			"status": "Ready",
-			"site": "http://fibracap.com.ar/",
-			"order": 1
-		}
-	,
-		{
-			"title": "Site: Pastoral de Quilmes",
-			"img": "pastoral.png",
-			"desc": [
-					"Catholic site. News. Splitted by zones.",
-					"Based on Wordpress.",
-					"I created the theme and design.",
-					"Custom backgrounds. Custom headers."
-					],
-			"using": ["HTML","CSS","PHP","MySQL","Wordpress","Javascript"],
-			"status": "Ready",
-			"site": "http://pastoraljuvquilmes.com.ar/",
-			"order": 1
-		}
-	,
-		{
-			"title": "Site: Intepro SRL",
-			"img": "intepro.png",
-			"desc": [
-					"Institutional site for Intepro SRL.",
-					"I created the design and built the HTML & CSS."
-					],
-			"using": ["HTML","CSS"],
-			"status": "Ready",
-			"site": "http://www.inteprosrl.com.ar/",
-			"order": 1
-		}
-	,
-		{
-			"title": "Site: Fagisa SRL",
-			"img": "fagisa.png",
-			"desc": [
-					"Institutional site with catalog / image gallery.",
-					"I created the design from zero.",
-					"Process all pictures and wrote/used my own php mini-framework."
-					],
-			"using": ["HTML","CSS","PHP","jQuery"],
-			"status": "Ready",
-			"site": "http://fagisa.com.ar/",
-			"order": 1
-		}
-	,	
-		{
 			"title": "Spot Motion jQuery Plugin",
 			"img": "spotmotion.png",
 			"desc": [
@@ -99,155 +41,6 @@
 			"using": ["jQuery"],
 			"status": "Ready",
 			"site": "http://arena.palamago.com.ar/spotMotion/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: Victoria Política",
-			"img": "vicky.png",
-			"desc": [
-					"Personal Blog based on Wordpress."
-					],
-			"using": ["HTML","CSS","PHP","Wordpress","Responsive Design"],
-			"status": "Ready",
-			"site": "http://victoriapolitica.com.ar/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: MAZ Real State",
-			"img": "maz.png",
-			"desc": [
-					"Personal Blog based on Wordpress."
-					],
-			"using": ["HTML","CSS","PHP","jQuery","mySQL"],
-			"status": "Ready",
-			"site": "http://mazpropiedades.com.ar/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: a90 - La Creatividad al poder",
-			"img": "a90.png",
-			"desc": [
-					"Porfolio blog for two artists.",
-					"Based on Wordpress."
-					],
-			"using": ["HTML","CSS","PHP","Wordpress","Responsive Design","jQuery"],
-			"status": "Ready",
-			"site": "http://a90.com.ar/",
-			"order": 1
-		}	
-	,	
-		{
-			"title": "Site: Carolina & Estela",
-			"img": "caro.png",
-			"desc": [
-					"Portfolio for wood paints business.",
-					"Based on Wordpress.",
-					"Custom theme.",
-					"I took the pictures too."
-					],
-			"using": ["HTML","CSS","PHP","Wordpress"],
-			"status": "Ready",
-			"site": "http://carolinayestela.com.ar/",
-			"order": 1
-		}	
-	,	
-		{
-			"title": "Site: Fell SRL",
-			"img": "fell.png",
-			"desc": [
-					"Institutional static site for Fell SRL, a transportation company.",
-					"I made the Design.",
-					"I'm not very proud about flash animation. But client likes it.",
-					"Based on my own PHP mini-framework.",
-					"Contact form."
-					],
-			"using": ["HTML","CSS","PHP","Flash","ActionScript 2"],
-			"status": "Ready",
-			"site": "http://fellsrl.com.ar/index.php",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: Mariposa en el subte",
-			"img": "mariposa.png",
-			"desc": [
-					"Hand made products online catalog.",
-					"Institutional blog based on wordpress.",
-					"Design and develop effort on my own."
-					],
-			"using": ["HTML","CSS","PHP","Flash","ActionScript 2","Phreeze ORM","Wordpress","mySQL","jQuery"],
-			"status": "Ready",
-			"site": "http://mariposaenelsubte.com.ar/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: Claudio Ortega professional broadcaster",
-			"img": "claudio.png",
-			"desc": [
-					"Personal site for a professional broadcaster.",
-					"Flex application. Complete resume, services and multimedia galleries.",
-					"Responsive Design."
-					],
-			"using": ["Flex","ActionScript 3"],
-			"status": "Ready",
-			"site": "http://www.claudioortega.com.ar/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: Vecinos de Wilde",
-			"img": "vecinos.png",
-			"desc": [
-					"Social blog to improve my neighborhood."
-					],
-			"using": ["HTML","CSS","PHP","Wordpress","Google Maps"],
-			"status": "Ready",
-			"site": "http://vecinosdewilde.com.ar/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: Siempre Alegres",
-			"img": "se.png",
-			"desc": [
-					"Personal site for a school teacher.",
-					"Based on Wordpress."
-					],
-			"using": ["HTML","CSS","PHP","Wordpress","mySQL"],
-			"status": "Ready",
-			"site": "http://siemprealegres.com.ar/",
-			"order": 1
-		}
-	,	
-		{
-			"title": "Site: SIP, human resources",
-			"img": "sip.png",
-			"desc": [
-					"Institutional site for HR services company.",
-					"Based on mini framework AJAX that I built.",
-					"Deep linking.",
-					"Registration, sessions, available jobs. Hiring process."
-					],
-			"using": ["Javascript","AJAX","HTML","CSS","Linkedin","API","jQuery","jQuery UI"],
-			"status": "Ready",
-			"site": "http://www.sip-arg.com.ar/",
-			"order": 1
-		}	
-	,	
-		{
-			"title": "Site: Optica Milenio",
-			"img": "milenio.png",
-			"desc": [
-					"Milenio Optics institutional site.",
-					"Catalog. Special offers. PDF vouchers generation."
-					],
-			"using": ["HTML","CSS","PHP","Wordpress","mySQL"],
-			"status": "Ready",
-			"site": "http://opticamilenio.com.ar/",
 			"order": 1
 		}
 	,	
@@ -441,17 +234,86 @@
 		}
 	,	
 		{
-			"title": "The important thing is to communicate",
-			"img": "impcom.png",
+			"title": "Argentinian Budget Observatory",
+			"img": "budget.png",
 			"desc": [
-					"Another Tumblr about messages and labels.",
-					"Collection of very funny and amazing messages.",
-					"Follow us on <a target='_blank' href='http://loimportanteescomunicar.tumblr.com/'>Tumblr</a> and <a target='_blank' href='http://twitter.com/impcomunicar'>Twitter: @impcomunicar</a>"
+					"Budget data visualized for ASAP.",
+					"Processing open data and visualize it on differents charts and tables.",
+					"More details <a href='http://www.eleconomistaamerica.pe/economia-eAm-argentina/noticias/6786526/06/15/Lanzan-el-primer-Observatorio-Presupuestario-del-pais.html' target='_blank'>here</a>"
 					],
-			"using": ["Tumblr"],
+			"using": ["angularJS","d3.js","lodash"],
 			"status": "Ready",
-			"site": "http://loimportanteescomunicar.tumblr.com/",
+			"site": "http://www.asap.org.ar/observatorio",
 			"order": 10
+		}
+	,	
+		{
+			"title": "Data Drive Journalism pieces in Chequeado.com",
+			"img": "chq.png",
+			"desc": [
+					"As a part of Chequeado Innovation Lab, we created charts, interactive maps and dynamic landing pages to complement investigations and research."
+					],
+			"using": ["angularJS","d3.js","cartoDB","githubPages","pym.js"],
+			"status": "Ready",
+			"site": "http://chequeado.com",
+			"code": "http://github.com/chequeadocom",
+			"order": 11
+		}
+	,	
+
+		{
+			"title": "Urban Dashboard",
+			"img": "ud.png",
+			"desc": [
+					"Amazing project from BID that allows to explore and compare more than 150 quantitative indicators, public opinion polls and interactive maps of intermediate cities in Latin America and the Caribbean",
+					"Working with <a href='http://sociopublico.com/' target='_blank'>Sociopúblico</a> team, I was in charge of frontend & dataviz development, consuming data from a REST API."
+					],
+			"using": ["angularJS","d3.js","Leaflet"],
+			"status": "Ready",
+			"site": "http://urbandashboard.org",
+			"order": 12
+		}
+	,	
+		{
+			"title": "Top Ranking Link Project",
+			"img": "topranking.png",
+			"desc": [
+					"See a Top 10 shared news/posts based on RSS feed from your favorites news portals/blogs. Update every 30 minutos.",
+					"Working instances: <a target='_blank' href='http://cl.topranking.link'>Chilean</a> and <a target='_blank' href='http://ar.topranking.link'>Argentinian</a> main online news portals.",
+					"Check this <a target='_blank' href='http://blog.palamago.com.ar/2014/11/shared-links-ranking/'>blog post (spanish)</a>"
+					],
+			"using": ["Laravel 4","angularJS"],
+			"status": "Ready",
+			"site": "http://topranking.link",
+			"code": "https://github.com/palamago/shared-links-ranking",
+			"order": 12
+		}
+	,
+		{
+			"title": "Fact checking index charts",
+			"img": "index.png",
+			"desc": [
+					"The Chequeado team created a 'fact checking index' based on interviews of three main candidates running for president in Argentina.",
+					"I developed the interactive charts to visualize this index.",
+					"Published at the same time in <a href='http://chequeado.com/el-explicador/indice-de-chequeabilidad-en-la-recta-final-de-la-campana-dominaron-las-propuestas/' target='_blank'>Chequeado</a> and <a  href='http://www.lanacion.com.ar/1833433-massa-tiene-el-discurso-mas-concreto' target='_blank'>La Nación</a>"
+					],
+			"using": ["jquery","d3.js","pym.js"],
+			"status": "Ready",
+			"site": "http://chequeado.com/el-explicador/indice-de-chequeabilidad-en-la-recta-final-de-la-campana-dominaron-las-propuestas/",
+			"order": 13
 		}	
+	,
+		{
+			"title": "New Government staff",
+			"img": "gabi.png",
+			"desc": [
+					"Clear index of new Government members after national elections in Argentina."
+					],
+			"using": ["angularJS","tabletop","bootstrap"],
+			"status": "Ready",
+			"site": "http://chequeado.com/gabinete/",
+			"code": "https://github.com/Chequeadocom/gabinete",
+			"order": 13
+		}
 	]
 }
