@@ -248,6 +248,21 @@
 		}
 	,	
 		{
+			"title": "Responsive choropleth map",
+			"img": "cosoc.png",
+			"desc": [
+					"Show an interactive responsive map from Chile based on information retrieved from google Spreadsheet.",
+					"That visualize an study conclusion."
+					],
+			"using": ["d3.js","knockout.js"],
+			"status": "Ready",
+			"site": "http://cosoc.fundacionmultitudes.org/",
+			"code": "https://github.com/fmultitudes/mapa-cosoc",
+			"order": 11
+		}
+	,	
+
+		{
 			"title": "Data Drive Journalism pieces in Chequeado.com",
 			"img": "chq.png",
 			"desc": [
