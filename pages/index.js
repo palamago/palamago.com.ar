@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Pablo H. Paladino | Porfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Pablo H. Paladino's porfolio" />
       </Head>
@@ -26,6 +26,7 @@ export default function Home() {
       <main>
         <h1 className="title">
           Pablo H. Paladino
+          <br/><small>@palamago</small>
         </h1>
 
         <p className="description">
@@ -46,11 +47,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a>
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className="logo" />{' '}
           {' '}&{' '}
@@ -186,6 +183,10 @@ export default function Home() {
           .grid {
             width: 100%;
             flex-direction: column;
+          }
+          .card {
+            width: 96%;
+            margin: 2%;
           }
         }
       `}</style>
