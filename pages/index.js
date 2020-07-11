@@ -1,19 +1,14 @@
 import Head from 'next/head'
-import {useDirectus} from '../hooks/useDirectus';
+import {getAllItems} from '../hooks/connectDirectus';
 
-export default function Home() {
-
-  const [result, error, state] = useDirectus(async client => {
-    return await client.getItems("links");
-  });
-
-  if (state === 'loading') {
-    return <h1>Loading ...</h1>
+export async function getStaticProps({preview = false}) {
+  const result = await getAllItems("links");
+  return {
+    props: {links: result.data, preview},
   }
+}
 
-  if (state === 'errored') {
-    return <h1 style={{color: 'red'}}>{error.message}</h1>
-  }
+export default function Home({links, state, error, preview}) {
 
   return (
     <div className="container">
@@ -38,7 +33,7 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          {result.data.map(link =>
+          {links.map(link =>
             <a key={`link-${link.id}`} href={link.link} target="_blank" className="card" rel="noreferrer">
               <h3>{link.name} &rarr;</h3>
             </a>
