@@ -16,6 +16,17 @@ export default function Home({links, state, error, preview}) {
         <title>Pablo H. Paladino | Porfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Pablo H. Paladino's porfolio" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-18158765-1"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-18158765-1');
+              `,
+          }}
+        />
       </Head>
 
       <main>
