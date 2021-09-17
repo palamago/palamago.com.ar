@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Header from "../components/header"
 import Title from "../components/title"
 
-export default function Python() {
+export default function Javascript() {
 
   return (
-    <div id="python-page">
+    <div id="programming-page">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
